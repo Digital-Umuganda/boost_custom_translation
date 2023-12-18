@@ -233,7 +233,10 @@ $templatecontext = [
     'isediting' => $PAGE->user_is_editing(),
     'translateurl' => html_entity_decode(new moodle_url('/local/translate_courses/index.php', array("cateid" => $course->category, "step" => 2, 'cid' => $course->id))),
     'linkedcourses' => $linkedcoursesarray,
-    'currentlanguage' => $currentcourselanguage
+    'currentlanguage' => $currentcourselanguage,
+    'translate' => get_string('translate', 'theme_boost_custom_translation'),
+    'enablepopup' => get_string('enablepopup', 'theme_boost_custom_translation'),
+    'sellang' => get_string('sellang', 'theme_boost_custom_translation'),
 ];
 
 // print_r($linkedcoursesarray[1]);

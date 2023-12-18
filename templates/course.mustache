@@ -105,11 +105,11 @@ Example context (json):
                         <ul class="navbar-nav ml-auto">
                             {{#isediting}}
                             <li class="nav-item">
-                                <a class="btn btn-primary" href={{translateurl}}>Translate</a>
+                                <a class="btn btn-primary" href={{translateurl}}>{{translate}}</a>
                             </li>
                             {{/isediting}}
                             <li class="nav-item">
-                                <span class="nav-link disabled">Enable popup translation:</span>
+                                <span class="nav-link disabled">{{enablepopup}}:</span>
                             </li>
                             <li class="nav-item">
                                 <div class="nav-link">
@@ -122,7 +122,7 @@ Example context (json):
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <span class="nav-link disabled">Select course language:</span>
+                                <span class="nav-link disabled">{{sellang}}:</span>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"

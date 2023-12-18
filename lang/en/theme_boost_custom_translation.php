@@ -8,5 +8,8 @@ defined('MOODLE_INTERNAL') || die();
 $string['choosereadme'] = 'Theme photo is a child theme of Boost. It adds the ability to upload background photos.';                
 // The name of our plugin.                                                                                                          
 $string['pluginname'] = 'Ting';                                                                                                    
-// We need to include a lang string for each block region.                                                                          
+// We need to includetheme_boost_customtranslation a lang string for each block region.                                                                          
 $string['region-side-pre'] = 'Right';
+$string['translate'] = 'Translate';
+$string['enablepopup'] = 'Enable popup translation';
+$string['sellang'] = 'Select course language';

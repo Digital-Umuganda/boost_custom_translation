@@ -6,9 +6,9 @@ This is a ***Moodle*** **theme** that inherits its main functionalities from the
 **Manual installation**
 =
 1. Clone this repository
-2. Unzip it in the ``theme`` directory in your moodle installation
-3. Be sure to install ``local_translate_course`` plugin as well because some feature of the theme depend on it(link)
-4. Also install the ``course_select`` custom field because it's also required (link)
+2. Unzip it in the ``/theme`` directory of your Moodle installation
+3. Be sure to install [``moodle-translate_courses``](https://github.com/Digital-Umuganda/moodle-translate_courses) plugin as well because some features of the theme depend on it
+4. Also install the [``moodle-courseselect``](https://github.com/Digital-Umuganda/moodle-courseselect) custom field because it's also required
 
 **Usage**
 =
@@ -48,4 +48,4 @@ $THEME->layouts = array(
 **Todo**
 =
 - [ ] Add licence
-- [ ] Add links to required repos
+- [x] Add links to required repos

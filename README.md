@@ -12,7 +12,7 @@ This is a ***Moodle*** **theme** that inherits its main functionalities from the
 
 **Usage**
 =
-- To use it, go Moodle appearance settings and enable the theme
+- To use it, go to Moodle appearance settings and enable the theme
 - The inline translation widget can be enabled by the user by using the toggle in the top navigation bar
 - Translating the course
   - Follow the instruction from translation plugin(link)

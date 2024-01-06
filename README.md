@@ -43,7 +43,7 @@ $THEME->layouts = array(
 
 **Author**
 =
-- Developed by [Elvis Peace NDAHAYO RUGERO](https://github.com/nrep) and [Digital Umuganda](https://github.com/Digital-Umuganda) with the funding of [GIZ](https://www.giz.de) Fair Forward
+Developed by [Elvis Peace NDAHAYO RUGERO](https://github.com/nrep) and [Digital Umuganda](https://github.com/Digital-Umuganda) with the funding of [GIZ](https://www.giz.de) Fair Forward
 
 **Todo**
 =
